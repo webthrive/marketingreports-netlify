@@ -70,6 +70,10 @@ INTENTIONAL = {
     # Link triage 2026-08-30: dead destinations replaced, bundles split, copy corrected.
     'google-ads': {'cards', 'paragraphs'},
     'facebook-ads': {'cards', 'paragraphs'},
+    # Rebuilt 2026-08-30: both categories were 5/5 dead, nothing salvageable.
+    'ahrefs': {'title', 'meta:description', 'og:title', 'og:description', 'h1', 'h2s',
+               'cards', 'paragraphs', 'ctas'},
+    'bing-ads': {'cards', 'paragraphs'},
 }
 
 fails = 0
