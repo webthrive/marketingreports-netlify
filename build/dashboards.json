@@ -860,13 +860,14 @@
       "image_loading": null,
       "has_inline_svg": true,
       "rel": "noopener sponsored",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-b04a58",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "ahrefs-02",
@@ -901,13 +902,14 @@
       "image_loading": null,
       "has_inline_svg": true,
       "rel": "noopener sponsored",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-52e042",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "ahrefs-03",
@@ -942,13 +944,14 @@
       "image_loading": null,
       "has_inline_svg": true,
       "rel": "noopener sponsored",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-40b73d",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "ahrefs-04",
@@ -983,13 +986,14 @@
       "image_loading": null,
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "blog_post",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-7a2bf5",
       "triage_note": "article about dashboards, not a dashboard",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "ahrefs-05",
@@ -1024,13 +1028,14 @@
       "image_loading": null,
       "has_inline_svg": true,
       "rel": "noopener sponsored",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-03e96b",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "bing-ads-01",
@@ -1065,13 +1070,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "bing-ads-02",
@@ -1106,13 +1112,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "DEAD"
     },
     {
       "id": "bing-ads-03",
@@ -1147,13 +1155,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "bing-ads-04",
@@ -1188,13 +1197,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "bing-ads-05",
@@ -1229,13 +1239,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "blog_post",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3ce11b",
       "triage_note": "article about dashboards, not a dashboard",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "email-marketing-01",
@@ -1271,13 +1282,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "email-marketing-02",
@@ -1312,13 +1324,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "email-marketing-03",
@@ -1355,12 +1368,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "email-marketing-04",
@@ -1395,13 +1409,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "DEAD"
     },
     {
       "id": "email-marketing-05",
@@ -1436,13 +1452,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": "email-marketing-02"
+      "duplicate_of": "email-marketing-02",
+      "liveness": "DEAD"
     },
     {
       "id": "facebook-ads-01",
@@ -1477,13 +1494,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-e4d0ba",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "facebook-ads-02",
@@ -1519,12 +1537,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-03",
@@ -1561,12 +1580,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-04",
@@ -1601,13 +1621,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "individual",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-05",
@@ -1643,12 +1665,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3692fa",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-06",
@@ -1684,13 +1707,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "gallery",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-07",
@@ -1726,12 +1750,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "blog_post",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3ce11b",
       "triage_note": "article about dashboards, not a dashboard",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "facebook-ads-08",
@@ -1767,13 +1792,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-e4d0ba",
       "triage_note": "single template preview",
-      "duplicate_of": "facebook-ads-01"
+      "duplicate_of": "facebook-ads-01",
+      "liveness": "DEAD"
     },
     {
       "id": "google-ads-01",
@@ -1809,12 +1835,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-ads-02",
@@ -1848,13 +1875,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD",
+      "replacement_url": "https://supermetrics.com/template-gallery/looker-studio-google-ads"
     },
     {
       "id": "google-ads-03",
@@ -1890,12 +1919,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3692fa",
       "triage_note": "roundup/listicle of several templates",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-ads-04",
@@ -1931,13 +1961,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "individual",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "LIVE"
     },
     {
       "id": "google-ads-05",
@@ -1974,12 +2006,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-ads-06",
@@ -2014,13 +2047,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "blog_post",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3ce11b",
       "triage_note": "article about dashboards, not a dashboard",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "google-ads-07",
@@ -2056,13 +2090,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "gallery",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-ads-08",
@@ -2097,13 +2132,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3692fa",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "google-search-console-01",
@@ -2139,13 +2175,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "google-search-console-02",
@@ -2181,12 +2218,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-search-console-03",
@@ -2223,12 +2261,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "google-search-console-04",
@@ -2263,13 +2302,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "individual",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "LIVE"
     },
     {
       "id": "google-search-console-05",
@@ -2304,13 +2345,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "moved",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "no longer a template page - now a Claude MCP connector page",
+      "duplicate_of": null,
+      "liveness": "MOVED"
     },
     {
       "id": "google-search-console-06",
@@ -2346,12 +2388,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3692fa",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "hubspot-marketing-01",
@@ -2387,13 +2430,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "hubspot-marketing-02",
@@ -2430,12 +2474,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "hubspot-marketing-03",
@@ -2471,13 +2516,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "hubspot-marketing-04",
@@ -2512,13 +2558,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "DEAD"
     },
     {
       "id": "hubspot-marketing-05",
@@ -2555,12 +2603,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": "hubspot-marketing-02"
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": "hubspot-marketing-02",
+      "liveness": "LIVE"
     },
     {
       "id": "hubspot-marketing-06",
@@ -2596,13 +2645,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "linkedin-ads-01",
@@ -2638,12 +2688,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "linkedin-ads-02",
@@ -2680,12 +2731,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "linkedin-ads-03",
@@ -2720,13 +2772,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "linkedin-ads-04",
@@ -2761,13 +2814,15 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "gallery",
-      "verified_on": null,
+      "link_type": "individual",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
-      "triage_note": "Catchr platform page listing multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED single template page; card copy overclaims a set",
+      "duplicate_of": null,
+      "copy_fix_needed": true,
+      "liveness": "LIVE"
     },
     {
       "id": "linkedin-ads-05",
@@ -2804,12 +2859,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-a46b89",
       "triage_note": "single template detail page",
-      "duplicate_of": "linkedin-ads-01"
+      "duplicate_of": "linkedin-ads-01",
+      "liveness": "LIVE"
     },
     {
       "id": "linkedin-ads-06",
@@ -2844,13 +2900,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "organic-social-01",
@@ -2885,13 +2942,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-e4d0ba",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "organic-social-02",
@@ -2926,13 +2984,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "organic-social-03",
@@ -2970,12 +3029,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "gallery",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "Porter Metrics platform gallery, multiple templates",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "organic-social-04",
@@ -3012,12 +3072,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-5b189a",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "shopify-01",
@@ -3053,13 +3114,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-dfb26b",
       "triage_note": "single template preview",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "DEAD"
     },
     {
       "id": "shopify-02",
@@ -3095,12 +3157,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "shopify-03",
@@ -3137,12 +3200,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-ce326d",
-      "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "triage_note": "VERIFIED gallery (paginated). Porter individual templates are generic multi-platform PPC, not platform-specific",
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "shopify-04",
@@ -3178,13 +3242,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-feec0d",
       "triage_note": "single template preview",
-      "duplicate_of": "shopify-01"
+      "duplicate_of": "shopify-01",
+      "liveness": "DEAD"
     },
     {
       "id": "shopify-05",
@@ -3220,13 +3285,14 @@
       "image_loading": "lazy",
       "has_inline_svg": true,
       "rel": "noopener",
-      "link_type": "individual",
-      "verified_on": null,
+      "link_type": "dead",
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-dfb26b",
       "triage_note": "single template preview",
-      "duplicate_of": "shopify-01"
+      "duplicate_of": "shopify-01",
+      "liveness": "DEAD"
     },
     {
       "id": "shopify-06",
@@ -3262,12 +3328,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-3692fa",
       "triage_note": "single-template URL shape",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     },
     {
       "id": "shopify-07",
@@ -3304,12 +3371,13 @@
       "has_inline_svg": true,
       "rel": "noopener",
       "link_type": "individual",
-      "verified_on": null,
+      "verified_on": "2026-08-30",
       "screenshot": null,
       "alt": null,
       "placeholder": "ph-de67f3",
       "triage_note": "single template detail page",
-      "duplicate_of": null
+      "duplicate_of": null,
+      "liveness": "LIVE"
     }
   ],
   "placeholders": {
