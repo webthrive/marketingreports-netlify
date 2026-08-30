@@ -67,6 +67,9 @@ def fingerprint(path):
 # Anything NOT listed here that differs is an unintended regression.
 INTENTIONAL = {
     'ahrefs': {'title', 'meta:description', 'og:title', 'og:description', 'h1', 'h2s'},
+    # Link triage 2026-08-30: dead destinations replaced, bundles split, copy corrected.
+    'google-ads': {'cards', 'paragraphs'},
+    'facebook-ads': {'cards', 'paragraphs'},
 }
 
 fails = 0
