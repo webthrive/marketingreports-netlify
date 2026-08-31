@@ -1,66 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MarketingReports.io — Coming Soon</title>
-  <meta name="description" content="MarketingReports.io is launching soon. Free marketing dashboard templates for Google Ads, Facebook Ads, and more.">
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="icon" href="/logo.svg" type="image/svg+xml">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --bg: #0a0d12; --card: #111620; --border: #1e2530; --accent: #00d4ff; --text: #f0f4f8; --muted: #6b7280; }
-    html, body { height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
-    .wrap { text-align: center; padding: 2rem; max-width: 520px; }
-    .logo { margin-bottom: 2.5rem; }
-    .logo img { height: 28px; display: inline-block; }
-    h1 { font-size: 2rem; font-weight: 700; letter-spacing: -.02em; margin-bottom: .75rem; line-height: 1.2; }
-    h1 span { color: var(--accent); }
-    p { color: var(--muted); font-size: 1.05rem; line-height: 1.7; margin-bottom: 2rem; }
-    .badge { display: inline-block; background: rgba(0,212,255,.1); border: 1px solid rgba(0,212,255,.25); color: var(--accent); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .35rem .9rem; border-radius: 99px; margin-bottom: 1.5rem; }
-    .notify { display: flex; gap: .5rem; max-width: 380px; margin: 0 auto 1rem; }
-    .notify input { flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: .65rem 1rem; color: var(--text); font-size: .9rem; outline: none; transition: border-color .15s; }
-    .notify input:focus { border-color: var(--accent); }
-    .notify input::placeholder { color: var(--muted); }
-    .notify button { background: var(--accent); color: #0a0d12; border: none; border-radius: 8px; padding: .65rem 1.25rem; font-size: .9rem; font-weight: 700; cursor: pointer; white-space: nowrap; transition: opacity .15s; }
-    .notify button:hover { opacity: .85; }
-    .note { font-size: .78rem; color: var(--muted); margin-bottom: 2.5rem; }
-    .divider { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
-    .links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
-    .links a { color: var(--muted); text-decoration: none; font-size: .85rem; transition: color .15s; }
-    .links a:hover { color: var(--accent); }
-    @media(max-width:480px) { h1 { font-size: 1.5rem; } .notify { flex-direction: column; } }
-  </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WH8BJSG');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MarketingReports.io — Marketing Dashboard Reviews, Templates & Comparisons</title>
+<meta name="description" content="Independent reviews, free templates, and comparisons for marketing dashboards and reporting tools. Find the best Looker Studio templates, Whatagraph, Databox, Supermetrics, and more.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://marketingreports.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MarketingReports.io">
+<meta property="og:title" content="MarketingReports.io — Marketing Dashboard Reviews, Templates & Comparisons">
+<meta property="og:description" content="Independent reviews, free templates, and comparisons for marketing dashboards and reporting tools. Find the best Looker Studio templates, Whatagraph, Databox, Supermetrics, and more.">
+<meta property="og:url" content="https://marketingreports.io/">
+<meta property="og:image" content="https://marketingreports.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MarketingReports.io — Marketing Dashboard Reviews, Templates & Comparisons">
+<meta name="twitter:description" content="Independent reviews, free templates, and comparisons for marketing dashboards and reporting tools. Find the best Looker Studio templates, Whatagraph, Databox, Supermetrics, and more.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "MarketingReports.io \u2014 Marketing Dashboard Reviews, Templates & Comparisons",
+  "description": "Independent reviews, free templates, and comparisons for marketing dashboards and reporting tools. Find the best Looker Studio templates, Whatagraph, Databox, Supermetrics, and more.",
+  "url": "https://marketingreports.io/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "MarketingReports.io",
+    "url": "https://marketingreports.io"
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Rubik:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0b0e14;--bg-card:#10141d;--bg-elevated:#151a26;
+  --border:#1e2535;--border-light:#252d40;
+  --text:#e2e8f0;--text-muted:#8c9ab0;--text-dim:#4a5568;
+  --accent:#00d4ff;--accent-glow:rgba(0,212,255,.15);--accent-dim:rgba(0,212,255,.08);
+  --green:#00e5a0;--amber:#ffb547;--red:#ff5f7e;
+  --font-mono:'Space Grotesk',sans-serif;--font-body:'Rubik',sans-serif;
+  --radius:6px;--radius-lg:12px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+@media(max-width:768px){.hero-dashboard-img{display:none!important}}
+html{font-size:18px;scroll-behavior:smooth}
+body::before{content:"";position:fixed;inset:0;background:url(/hero-bg.png) center top/cover no-repeat;opacity:.2;z-index:-1;pointer-events:none}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:1rem;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none;transition:opacity .15s}
+a:hover{opacity:.8}
+
+/* NAV */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(11,14,20,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 2rem;height:60px;display:flex;align-items:center;gap:2rem}
+.logo{display:flex;align-items:center;gap:.6rem;font-family:var(--font-mono);font-size:1rem;font-weight:700;color:var(--text);white-space:nowrap;text-decoration:none;letter-spacing:-0.01em}
+.logo-mark{width:28px;height:28px;background:linear-gradient(135deg,var(--accent),var(--green));border-radius:5px;display:grid;place-items:center;font-size:.6rem;color:#000;font-weight:700;flex-shrink:0}
+.logo span{color:var(--accent)}
+.main-nav{display:flex;align-items:center;gap:.25rem;margin-left:auto}
+.main-nav a{color:var(--text-muted);font-size:.85rem;font-weight:500;padding:.4rem .7rem;border-radius:var(--radius);transition:all .15s;text-decoration:none}
+.main-nav a:hover,.main-nav a.active{color:var(--text);background:var(--bg-elevated);opacity:1}
+.nav-cta{background:var(--accent)!important;color:#000!important;font-family:var(--font-mono);font-size:.65rem!important;font-weight:700!important;margin-left:.5rem}
+
+/* PAGE NAV TABS */
+.page-nav{background:var(--bg-card);border-bottom:1px solid var(--border);padding:0 2rem}
+.page-nav-inner{max-width:1280px;margin:0 auto;display:flex;gap:0}
+.page-tab{font-family:var(--font-mono);font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.7rem 1.1rem;color:var(--text-dim);border:none;background:none;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;white-space:nowrap}
+.page-tab:hover{color:var(--text-muted)}
+.page-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* TICKER */
+.hero-ticker{border-bottom:1px solid var(--border);background:rgba(8,6,24,.95);overflow:hidden;height:38px;display:flex;align-items:center}
+.ticker-label{font-family:var(--font-mono);font-size:.65rem;font-weight:700;color:#000;background:var(--accent);padding:0 .75rem;height:100%;display:flex;align-items:center;white-space:nowrap;flex-shrink:0}
+.ticker-wrap{overflow:hidden;flex:1}
+.ticker-track{display:flex;gap:3rem;animation:ticker 28s linear infinite;padding-left:2rem;white-space:nowrap}
+.ticker-item{font-family:var(--font-mono);font-size:.72rem;color:var(--text-muted);white-space:nowrap;font-weight:500}
+.ticker-item .up{color:var(--green)}
+.ticker-item{text-decoration:none;transition:color .15s}
+.ticker-item:hover{color:var(--text)}
+.ticker-item:hover .up{color:var(--accent)}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* LAYOUT */
+.page-wrap{max-width:1280px;margin:0 auto;padding:0 2rem}
+.two-col{display:grid;grid-template-columns:1fr;gap:2.5rem;padding:2rem 0 4rem}
+.sidebar{display:none!important}
+
+/* HERO */
+
+.home-hero{padding:3rem 0 2rem;}
+.hero-eyebrow{font-family:var(--font-mono);font-size:.65rem;font-weight:700;color:var(--accent);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}
+.hero-eyebrow::before{content:'';display:block;width:20px;height:2px;background:var(--accent)}
+.home-hero h1{font-family:var(--font-mono);font-size:clamp(1.7rem,3vw,2.5rem);font-weight:700;line-height:1.15;margin-bottom:.85rem;letter-spacing:-0.02em}
+.home-hero h1 .hi{color:var(--accent)}
+.hero-desc{color:var(--text-muted);font-size:1rem;max-width:540px;margin-bottom:1.75rem}
+.hero-stats{display:none}
+.stat-val{font-family:var(--font-mono);font-size:1.35rem;font-weight:700}
+.stat-val .u{color:var(--accent);font-size:.85rem}
+.stat-label{font-size:.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;margin-top:.1rem}
+
+/* FEED */
+.feed-header{display:flex;flex-direction:column;align-items:flex-start;gap:.75rem;padding:1.5rem 0 1.1rem;margin-bottom:1.25rem}
+.feed-title{font-family:var(--font-mono);font-size:.7rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:.1em}.feed-filters{display:flex;gap:.4rem;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:.25rem;width:100%;scrollbar-width:none}.feed-filters::-webkit-scrollbar{display:none}
+.feed-filters{display:flex;gap:.4rem}
+.filter-btn{font-family:var(--font-mono);font-size:.6rem;font-weight:700;color:var(--text-muted);background:none;border:1px solid var(--border);border-radius:3px;padding:.22rem .55rem;cursor:pointer;text-transform:uppercase;letter-spacing:.06em;transition:all .15s}
+.filter-btn:hover,.filter-btn.active{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+.post-feed{display:flex;flex-direction:column;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.post-card{background:var(--bg-card);padding:1.25rem 1rem;display:grid;grid-template-columns:auto 1fr auto;gap:.75rem;align-items:start;transition:background .15s;text-decoration:none;color:inherit;cursor:pointer;border:none;width:100%;box-sizing:border-box;max-width:100%}
+.post-card:hover{background:var(--bg-elevated)}
+.post-type-badge{font-family:var(--font-mono);font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.28rem .48rem;border-radius:3px;white-space:nowrap;margin-top:.15rem}
+.badge-update{background:rgba(0,212,255,.12);color:var(--accent)}
+.badge-spotlight{background:rgba(0,229,160,.12);color:var(--green)}
+.badge-template{background:rgba(255,181,71,.12);color:var(--amber)}
+.badge-compare{background:rgba(255,95,126,.12);color:var(--red)}
+.post-card h2{font-size:1.05rem;font-weight:600;color:var(--text);margin-bottom:.28rem;line-height:1.3;letter-spacing:-0.01em}
+.post-card:hover h2{color:var(--accent)}
+.post-card p{font-size:.88rem;color:var(--text-muted);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.post-meta{display:flex;align-items:center;gap:.65rem;margin-top:.5rem}
+.post-date{font-family:var(--font-mono);font-size:.6rem;color:var(--text-dim)}
+.post-tag{font-family:var(--font-mono);font-size:.55rem;color:var(--text-dim);background:var(--bg-elevated);border:1px solid var(--border);padding:.12rem .38rem;border-radius:3px}
+.post-arrow{color:var(--text-dim);font-size:1rem;margin-top:.2rem;transition:color .15s,transform .15s;flex-shrink:0}
+.post-card:hover .post-arrow{color:var(--accent);transform:translateX(3px)}
+
+/* SIDEBAR */
+.sidebar{display:flex;flex-direction:column;gap:1.25rem;padding-top:1.5rem}
+.sidebar-widget{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.widget-header{font-family:var(--font-mono);font-size:.6rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:.1em;padding:.8rem 1.1rem;border-bottom:1px solid var(--border);background:var(--bg-elevated)}
+.tool-list{padding:.4rem 0}
+.tool-item{display:flex;align-items:center;gap:.65rem;padding:.6rem 1.1rem;transition:background .15s;text-decoration:none;color:inherit;border-bottom:1px solid var(--border)}
+.tool-item:last-child{border-bottom:none}
+.tool-item:hover{background:var(--bg-elevated)}
+.tool-icon{width:32px;height:32px;border-radius:6px;display:grid;place-items:center;font-family:var(--font-mono);font-size:.65rem;font-weight:700;flex-shrink:0}
+.tool-name{font-size:1rem;font-weight:600;color:var(--text)}
+.tool-badge{margin-left:auto;font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:.25rem .5rem;border-radius:3px;text-transform:uppercase}
+.badge-paid{background:rgba(0,212,255,.1);color:var(--accent)}
+.badge-free{background:rgba(0,229,160,.1);color:var(--green)}
+.affiliate-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:#000;font-family:var(--font-mono);font-size:.7rem;font-weight:700;padding:.55rem 1.1rem;border-radius:var(--radius);text-transform:uppercase;letter-spacing:.06em;transition:all .15s;box-shadow:0 0 18px rgba(0,212,255,.2);text-decoration:none}
+.affiliate-cta:hover{opacity:.9;box-shadow:0 0 28px rgba(0,212,255,.35);color:#000}
+
+/* TOOLS PAGE */
+.dir-hero{padding:2.5rem 0 2rem;border-bottom:1px solid var(--border)}
+.dir-hero h1{font-family:var(--font-mono);font-size:1.6rem;font-weight:700;margin-bottom:.5rem;letter-spacing:-0.02em}
+.dir-hero p{color:var(--text-muted);font-size:.9rem;max-width:540px}
+.section-label{font-family:var(--font-mono);font-size:.75rem;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:.1em;margin:1.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.dir-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem}
+.dir-card{background:var(--bg-card);padding:1.4rem;display:flex;flex-direction:column;gap:.4rem;transition:background .15s;cursor:pointer;text-decoration:none;color:inherit;box-sizing:border-box}
+.dir-card:hover{background:var(--bg-elevated)}
+.dir-card-top{display:flex;align-items:center;gap:.65rem;margin-bottom:.2rem}
+.dir-card-icon{width:34px;height:34px;border-radius:7px;display:grid;place-items:center;font-family:var(--font-mono);font-size:.58rem;font-weight:700;flex-shrink:0}
+.dir-card h3{font-size:1rem;font-weight:600;color:var(--text)}
+.dir-card p{font-size:.9rem;color:var(--text-muted);line-height:1.5}
+.dir-card-meta{display:flex;gap:.4rem;margin-top:.4rem;flex-wrap:wrap}
+
+/* TOOL DETAIL */
+.tool-hero{padding:2.5rem 0 2rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:1.75rem}
+.tool-hero-icon{width:60px;height:60px;border-radius:13px;display:grid;place-items:center;font-family:var(--font-mono);font-size:.95rem;font-weight:700;flex-shrink:0}
+.tool-hero h1{font-family:var(--font-mono);font-size:1.8rem;font-weight:700;margin-bottom:.4rem;letter-spacing:-0.025em}
+.tool-meta-row{display:flex;gap:.6rem;margin-bottom:.75rem;flex-wrap:wrap}
+.chip{font-family:var(--font-mono);font-size:.7rem;font-weight:700;padding:.28rem .6rem;border-radius:3px;text-transform:uppercase}
+.article-body{max-width:680px;padding:2rem 0}
+.article-body h2{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;color:var(--text);margin:1.75rem 0 .65rem;padding-left:.8rem;border-left:3px solid var(--accent);letter-spacing:-0.01em}
+.article-body p{color:var(--text-muted);margin-bottom:.9rem;font-size:.9rem;line-height:1.7}
+.article-body ul{color:var(--text-muted);padding-left:1.2rem;margin-bottom:.9rem;font-size:.9rem}
+.article-body li{margin-bottom:.3rem;line-height:1.6}
+.article-body strong{color:var(--text)}
+.compare-table{width:100%;border-collapse:collapse;font-size:.82rem;margin:1.25rem 0;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.compare-table th{background:var(--bg-elevated);font-family:var(--font-mono);font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);padding:.7rem .9rem;text-align:left;border-bottom:1px solid var(--border)}
+.compare-table td{padding:.7rem .9rem;border-bottom:1px solid var(--border);color:var(--text-muted)}
+.compare-table tr:last-child td{border-bottom:none}
+.compare-table tr:hover td{background:var(--bg-elevated)}
+.check{color:var(--green)}.cross{color:var(--red)}
+.affiliate-block{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);padding:1.1rem 1.25rem;margin:1.75rem 0}
+.affiliate-block-label{font-family:var(--font-mono);font-size:.6rem;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.affiliate-block p{font-size:.82rem;color:var(--text-muted);margin:0}
+
+/* FOOTER */
+.site-footer{border-top:1px solid var(--border);background:var(--bg-card);padding:2rem 0 1.5rem;margin-top:1.5rem}
+.footer-inner{max-width:1280px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:2rem}
+.footer-brand p{font-size:.8rem;color:var(--text-dim);margin-top:.65rem;line-height:1.6}
+.footer-col h4{font-family:var(--font-mono);font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-dim);margin-bottom:.75rem}
+.footer-col ul{list-style:none}
+.footer-col li{margin-bottom:.35rem}
+.footer-col a{font-size:.8rem;color:var(--text-muted)}
+.footer-col a:hover{color:var(--accent);opacity:1}
+.footer-bottom{max-width:1280px;margin:1.5rem auto 0;padding:1.1rem 2rem 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.footer-bottom p{font-family:var(--font-mono);font-size:.6rem;color:var(--text-dim)}
+.footer-bottom a{color:var(--text-dim)}
+
+/* PAGE CONTENT AREAS */
+.page-content{display:none}.page-content.active{display:block}
+
+/* ── Featured Dashboards ─────────────────────────── */
+.featured-dashboards{padding:2rem 0;}
+.section-header{text-align:center;margin-bottom:2.5rem}
+.section-title{font-size:1.6rem;font-weight:700;margin:.4rem 0 .6rem;letter-spacing:-.02em}
+.section-sub{font-size:.9rem;color:var(--text-muted)}
+.fd-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
+.fd-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;text-decoration:none;color:inherit;transition:border-color .15s,transform .15s;display:flex;flex-direction:column}
+.fd-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.fd-preview{background:#0b0e14;border-bottom:1px solid var(--border);overflow:hidden;line-height:0;aspect-ratio:400/220}
+.fd-preview img{width:100%;height:100%;display:block;object-fit:cover;object-position:top left}
+.fd-info{padding:1rem 1.1rem}
+.fd-source{font-family:var(--font-mono);font-size:.6rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.25rem}
+.fd-name{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:.6rem;line-height:1.3}
+.fd-meta{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+.fd-tag{font-family:var(--font-mono);font-size:.58rem;background:var(--bg-elevated);color:var(--text-muted);padding:.15rem .45rem;border-radius:3px;border:1px solid var(--border)}
+.fd-free{font-family:var(--font-mono);font-size:.58rem;background:rgba(0,229,160,.1);color:var(--green);padding:.15rem .45rem;border-radius:3px;border:1px solid rgba(0,229,160,.2);font-weight:700}
+
+/* ── Value Prop Section ──────────────────────────── */
+.value-section{padding:2.5rem 0;}
+.value-header{text-align:center;max-width:620px;margin:0 auto 1.5rem}
+.value-title{font-size:2rem;font-weight:700;line-height:1.2;letter-spacing:-.02em;margin:.5rem 0 .75rem}
+.value-sub{font-size:.95rem;color:var(--text-muted);line-height:1.65}
+.value-hero-img{margin-bottom:3.5rem;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.value-pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem}
+@media(max-width:900px){.value-pillars{grid-template-columns:repeat(2,1fr)}.fd-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.value-pillars{grid-template-columns:1fr}.fd-grid{grid-template-columns:1fr}}
+.value-pillar{display:flex;flex-direction:column;gap:.75rem}
+.value-pillar h3{font-size:1rem;font-weight:700;color:var(--text);margin:0}
+.value-pillar p{font-size:.85rem;color:var(--text-muted);line-height:1.6;margin:0}
+
+/* ── Mobile overflow fixes ── */
+html,body{overflow-x:hidden;max-width:100%}
+@media(max-width:768px){
+  .nav-cta{display:none!important}
+  .main-nav{gap:.1rem}
+  .header-inner{padding:0 1rem}
+  .page-wrap{padding:0 1rem}
+  .tool-hero{flex-wrap:wrap}
+  .tool-cta-row{flex-wrap:wrap;gap:.75rem}
+  .affiliate-cta{white-space:nowrap;font-size:.65rem!important;padding:.45rem .85rem}
+  .post-cta-block{flex-direction:column;align-items:flex-start}
+  .footer-inner{grid-template-columns:1fr 1fr!important}
+  .two-col{grid-template-columns:1fr!important}
+  .home-hero{padding:2rem 0 1rem}
+}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="logo"><img src="/logo.svg" alt="MarketingReports.io"></div>
-    <div class="badge">Launching Soon</div>
-    <h1>Better marketing<br>dashboards are <span>coming</span></h1>
-    <p>Free, ready-to-use Looker Studio templates for Google Ads, Facebook Ads, SEO, and more — curated and reviewed so you don't have to search.</p>
-    <div class="notify">
-      <input type="email" placeholder="your@email.com" aria-label="Email address">
-      <button type="button">Notify Me</button>
-    </div>
-    <p class="note">No spam. We'll email once when we launch.</p>
-    <hr class="divider">
-    <div style="text-align:left;margin-bottom:1.5rem">
-      <p style="font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#4a5568;margin-bottom:.75rem">Latest Update</p>
-      <a href="/blog/databox-mcp-genie-ai-2026/" style="display:block;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1rem 1.25rem;text-decoration:none;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
-        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.4rem">
-          <span style="font-size:.6rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:rgba(0,212,255,.1);border:1px solid rgba(0,212,255,.2);padding:.15rem .5rem;border-radius:99px">Databox</span>
-          <span style="font-size:.6rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#4a5568">Apr 2, 2026</span>
-        </div>
-        <p style="font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:.25rem;line-height:1.35">Databox Launches MCP Server and Genie AI Analyst</p>
-        <p style="font-size:.8rem;color:var(--muted);margin:0;line-height:1.5">What the two new AI features actually change for agencies and marketing teams.</p>
-      </a>
-    </div>
-    <div class="links">
-      <a href="/marketing-dashboards/">Browse Dashboards</a>
-      <a href="/reporting-tools/whatagraph/">Whatagraph Review</a>
-      <a href="/reporting-tools/databox/">Databox Review</a>
-      <a href="/blog/">All Posts</a>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH8BJSG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-link"><img src="/logo.svg" alt="MarketingReports.io" height="22" style="display:block"></a>
+    <nav class="main-nav">
+      <a href="/marketing-dashboards/" >Dashboards</a>
+      <a href="/#latest-updates">Updates</a>
+      <a href="/marketing-dashboards/" class="nav-cta">Compare Tools →</a>
+    </nav>
+  </div>
+</header>
+<main><div class="page-wrap">
+    <!-- Hero -->
+    <div class="home-hero" style="position:relative;overflow:visible;">
+      <h1>Marketing Dashboards for<br><span class="hi">Teams Who Actually Use Them.</span></h1>
+      <p class="hero-desc">Free Looker Studio templates, honest reporting tool reviews, and product updates — so your dashboards are actually built, not just bookmarked.</p>
+      <div class="hero-stats">
+        <div><div class="stat-val">5<span class="u">+</span></div><div class="stat-label">Tools Covered</div></div>
+        <div><div class="stat-val">12<span class="u">+</span></div><div class="stat-label">Platforms</div></div>
+        <div><div class="stat-val">Free<span class="u"> &</span></div><div class="stat-label">Paid Options</div></div>
+      </div>
+      <img class="hero-dashboard-img" src="/dashboard-nobg.png" alt="Marketing dashboard preview" style="position:absolute;bottom:0px;right:-40px;width:55%;max-width:620px;opacity:0.92;pointer-events:none;z-index:0;">
     </div>
   </div>
+
+  <!-- Ticker — below hero stats -->
+  <div class="hero-ticker" style="margin:0">
+    <div class="ticker-label">LIVE UPDATES</div>
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <a class="ticker-item" href="/blog/whatagraph-ai-summaries-2025/">Whatagraph <span class="up">↑ AI Summaries & chatbot launched Jan 2025</span></a>
+        <a class="ticker-item" href="/blog/databox-okrs-forecast-modeling/">Databox <span class="up">↑ OKRs & Forecast Modeling now live</span></a>
+        <a class="ticker-item" href="/blog/supermetrics-flexpoint-pricing-2025/">Supermetrics <span class="up">↑ New flexpoint pricing model</span></a>
+        <a class="ticker-item" href="/blog/whatagraph-ai-summaries-2025/">Whatagraph <span class="up">↑ AI Summaries & chatbot launched Jan 2025</span></a>
+        <a class="ticker-item" href="/blog/databox-okrs-forecast-modeling/">Databox <span class="up">↑ OKRs & Forecast Modeling now live</span></a>
+        <a class="ticker-item" href="/blog/supermetrics-flexpoint-pricing-2025/">Supermetrics <span class="up">↑ New flexpoint pricing model</span></a>
+        <a class="ticker-item" href="/reporting-tools/klipfolio/">Klipfolio <span class="up">↑ New PowerMetrics tier</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-wrap">
+    <div class="two-col">
+      <!-- FEED -->
+      <main>
+        <div id="latest-updates" style="position:relative;top:-75px;"></div>
+        <div class="feed-header">
+          <div class="feed-title">Latest Updates</div>
+          <div class="feed-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="update">Updates</button>
+            <button class="filter-btn" data-filter="spotlight">Spotlights</button>
+            <button class="filter-btn" data-filter="template">Templates</button>
+            <button class="filter-btn" data-filter="compare">Compare</button>
+          </div>
+        </div>
+
+        <div class="post-feed" id="postFeed">
+          <a class="post-card" data-type="update" href="/blog/supermetrics-claude-chatgpt-mcp-2026/">
+            <span class="post-type-badge badge-update">Update</span>
+            <div>
+              <h2>Supermetrics Now Lives Inside Claude and ChatGPT — But Is It Actually Useful?</h2>
+              <p>Supermetrics launched native MCP integrations for Claude and ChatGPT. What actually changed, who it helps, and the honest limitations nobody's covering.</p>
+              <div class="post-meta"><span class="post-date">Apr 16, 2026</span><span class="post-tag">Supermetrics</span><span class="post-tag">AI</span></div>
+            </div>
+          </a>
+          <a class="post-card" data-type="update" href="/blog/databox-mcp-genie-ai-2026/">
+            <span class="post-type-badge badge-update">Update</span>
+            <div>
+              <h2>Databox Launches MCP Server and Genie AI Analyst: What It Actually Changes</h2>
+              <p>Genie answers plain-English questions of your data, and the MCP server lets you query Databox from Claude or ChatGPT. What each one does, and what it means for agency workflows.</p>
+              <div class="post-meta"><span class="post-date">Apr 2, 2026</span><span class="post-tag">Databox</span><span class="post-tag">AI</span></div>
+            </div>
+          </a>
+          <a class="post-card" data-type="update" href="/blog/whatagraph-ai-summaries-2025/">
+            <span class="post-type-badge badge-update">Update</span>
+            <div>
+              <h2>Whatagraph Launches AI-Powered Report Summaries</h2>
+              <p>Whatagraph's new AI Summaries feature generates plain-language performance narratives inside your reports — in 18 languages, based directly on your connected data.</p>
+              <div class="post-meta"><span class="post-date">Mar 3, 2026</span><span class="post-tag">Whatagraph</span><span class="post-tag">AI</span></div>
+            </div>
+            <span class="post-arrow">→</span>
+          </a>
+          <a class="post-card" data-type="update" href="/blog/databox-okrs-forecast-modeling/">
+            <span class="post-type-badge badge-update">Update</span>
+            <div>
+              <h2>Databox Launches OKRs and Forecast Modeling</h2>
+              <p>Databox added two planning features: OKRs for cascading objectives to teams, and Forecast Modeling for pressure-testing targets before you commit to them.</p>
+              <div class="post-meta"><span class="post-date">Mar 10, 2026</span><span class="post-tag">Databox</span><span class="post-tag">Planning</span></div>
+            </div>
+            <span class="post-arrow">→</span>
+          </a>
+          <a class="post-card" data-type="update" href="/blog/supermetrics-flexpoint-pricing-2025/">
+            <span class="post-type-badge badge-update">Update</span>
+            <div>
+              <h2>Supermetrics Moves to a Usage-Based Pricing Model</h2>
+              <p>Supermetrics overhauled its pricing with a flexpoint system — pay per connector usage rather than flat tiers. Here's what changed and what it actually costs agencies.</p>
+              <div class="post-meta"><span class="post-date">Mar 17, 2026</span><span class="post-tag">Supermetrics</span><span class="post-tag">Pricing</span></div>
+            </div>
+            <span class="post-arrow">→</span>
+          </a>
+          <a class="post-card" data-type="compare" href="/blog/whatagraph-vs-databox/">
+            <span class="post-type-badge badge-compare">Compare</span>
+            <div>
+              <h2>Whatagraph vs Databox: Which Reporting Tool Is Right for Your Agency?</h2>
+              <p>Both tools automate client reporting — but they're built for genuinely different workflows. We compare pricing, integrations, white-labeling, and where each one falls short.</p>
+              <div class="post-meta"><span class="post-date">Mar 24, 2026</span><span class="post-tag">Whatagraph</span><span class="post-tag">Databox</span></div>
+            </div>
+            <span class="post-arrow">→</span>
+          </a>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <div class="widget-header">Dashboard Tools</div>
+          <div class="tool-list">
+            <a href="/reporting-tools/whatagraph/" class="tool-item">
+              <div class="tool-icon" style="background:rgba(255,100,60,.15);color:#ff6437">WG</div>
+              <span class="tool-name">Whatagraph</span><span class="tool-badge badge-paid">Paid</span>
+            </a>
+            <a href="/marketing-dashboards/" class="tool-item">
+              <div class="tool-icon" style="background:rgba(0,212,255,.15);color:#00d4ff">DB</div>
+              <span class="tool-name">Databox</span><span class="tool-badge badge-paid">Paid</span>
+            </a>
+            <a href="/marketing-dashboards/" class="tool-item">
+              <div class="tool-icon" style="background:rgba(0,229,160,.15);color:#00e5a0">LS</div>
+              <span class="tool-name">Looker Studio</span><span class="tool-badge badge-free">Free</span>
+            </a>
+            <a href="/marketing-dashboards/" class="tool-item">
+              <div class="tool-icon" style="background:rgba(255,181,71,.15);color:#ffb547">SM</div>
+              <span class="tool-name">Supermetrics</span><span class="tool-badge badge-paid">Paid</span>
+            </a>
+            <a href="/marketing-dashboards/" class="tool-item">
+              <div class="tool-icon" style="background:rgba(180,100,255,.15);color:#b464ff">KF</div>
+              <span class="tool-name">Klipfolio</span><span class="tool-badge badge-paid">Paid</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-widget">
+          <div class="widget-header">Popular Platforms</div>
+          <div class="tool-list">
+            <a href="/marketing-dashboards/google-ads/" class="tool-item"><div class="tool-icon" style="background:rgba(66,133,244,.1);color:#4285f4">GA</div><span class="tool-name">Google Ads</span></a>
+            <a href="/marketing-dashboards/facebook-ads/" class="tool-item"><div class="tool-icon" style="background:rgba(24,119,242,.15);color:#1877f2">FB</div><span class="tool-name">Facebook Ads</span></a>
+            <a href="/marketing-dashboards/google-search-console/" class="tool-item"><div class="tool-icon" style="background:rgba(0,229,160,.1);color:#00e5a0">SC</div><span class="tool-name">Search Console</span></a>
+            <a href="/marketing-dashboards/hubspot-marketing/" class="tool-item"><div class="tool-icon" style="background:rgba(255,122,0,.15);color:#ff7a00">HS</div><span class="tool-name">HubSpot</span></a>
+            <a href="/marketing-dashboards/shopify/" class="tool-item"><div class="tool-icon" style="background:rgba(150,191,71,.15);color:#96bf47">SH</div><span class="tool-name">Shopify</span></a>
+          </div>
+        </div>
+
+        <div class="sidebar-widget" style="padding:1.4rem;background:linear-gradient(135deg,rgba(0,212,255,.06),rgba(0,229,160,.04))">
+          <div style="font-family:var(--font-mono);font-size:.6rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem">Need Automated Reports?</div>
+          <p style="font-size:.82rem;color:var(--text-muted);margin-bottom:1rem;line-height:1.5">Pricing, integrations, white-labeling, free plan availability — compared honestly, not by who pays for placement.</p>
+          <a href="/marketing-dashboards/" class="affiliate-cta" style="font-size:.65rem;padding:.45rem .9rem">Compare All Tools →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 2: TOOLS DIRECTORY
+════════════════════════════════════════════════════ --></main>
+
+<!-- VALUE PROP SECTION -->
+<section class="value-section">
+  <div class="page-wrap">
+
+    <div class="value-header">
+      <div class="section-label">WHY MARKETINGREPORTS.IO</div>
+      <h2 class="value-title">Less Time on Reports.<br>More Time on What Moves the Number.</h2>
+      <p class="value-sub">Most marketing teams spend more time building reports than acting on them. We've done the sourcing — free templates that actually work, reviews that don't pull punches, and weekly updates on what's changing in the tools you're already using.</p>
+    </div>
+
+    <div class="value-hero-img">
+      <img src="/dashboard-hero.svg" alt="Marketing dashboard examples" style="width:100%;display:block;border-radius:12px">
+    </div>
+
+    <div class="value-pillars">
+
+      <div class="value-pillar">
+        <img src="/icon-turnkey.svg" alt="" width="70" height="70">
+        <h3>Copy-Ready Templates</h3>
+        <p>Pre-built Looker Studio dashboards for every major platform — Google Ads, Meta, LinkedIn, Shopify, and more. Copy it, connect your data, and you're reporting in minutes, not days.</p>
+      </div>
+
+      <div class="value-pillar">
+        <img src="/icon-integrations.svg" alt="" width="70" height="70">
+        <h3>Cross-Platform Insights</h3>
+        <p>Templates that pull from 40+ platforms into one view — so you stop making decisions based on one channel's data while ignoring what the others are telling you.</p>
+      </div>
+
+      <div class="value-pillar">
+        <img src="/icon-automated.svg" alt="" width="70" height="70">
+        <h3>Always Up to Date</h3>
+        <p>Connected dashboards refresh automatically. No manual exports, no stale screenshots in a deck. The data your clients see is the data that actually exists right now.</p>
+      </div>
+
+      <div class="value-pillar">
+        <img src="/icon-fast.svg" alt="" width="70" height="70">
+        <h3>Honest Tool Reviews</h3>
+        <p>We review every major reporting platform — Whatagraph, Databox, Supermetrics, and more — including the parts vendors don't put on their pricing pages. Pick the right tool, not the one with the biggest affiliate payout.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED DASHBOARDS SECTION -->
+<section class="featured-dashboards">
+  <div class="page-wrap">
+    <div class="section-header">
+      <div class="section-label">FEATURED DASHBOARDS</div>
+      <h2 class="section-title">Hand-Picked Looker Studio Templates</h2>
+      <p class="section-sub">Hand-picked from the sources we'd actually recommend. Free to copy — click any card to get yours.</p>
+    </div>
+    <div class="fd-grid">
+
+      <!-- 1. Coupler.io — Google Ads Performance -->
+      <a href="https://blog.coupler.io/google-ads-looker-studio-template/" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://blog.coupler.io/wp-content/uploads/2024/03/google-ads-dashboard-template.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Coupler.io</div>
+          <div class="fd-name">Google Ads Performance Dashboard</div>
+          <div class="fd-meta">
+            <span class="fd-tag">Google Ads</span>
+            <span class="fd-tag">Looker Studio</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 2. Supermetrics — Facebook Ads -->
+      <a href="https://supermetrics.com/template-gallery/looker-studio-facebook-ads" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://blog.coupler.io/wp-content/uploads/2024/03/facebook-ads-dashboard-template-looker-studio.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Supermetrics</div>
+          <div class="fd-name">Meta Ads Performance Report</div>
+          <div class="fd-meta">
+            <span class="fd-tag">Facebook Ads</span>
+            <span class="fd-tag">Looker Studio</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 3. Catchr — Multi-Channel -->
+      <a href="https://coupler.io/templates/cross-channel-marketing-dashboard-looker-studio" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://blog.coupler.io/wp-content/uploads/2024/12/image-8-1024x319.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Coupler.io</div>
+          <div class="fd-name">Cross-Channel Marketing Dashboard</div>
+          <div class="fd-meta">
+            <span class="fd-tag">Multi-Channel</span>
+            <span class="fd-tag">Looker Studio</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 4. Databloo — GA4 + Search Console -->
+      <a href="https://supermetrics.com/template-gallery/looker-studio-google-analytics-4-and-search-console" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://cdn.prod.website-files.com/61f0f48a97255128fb175a87/6700013d30a22196e51b653f_Google-ads-overview.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Databloo</div>
+          <div class="fd-name">GA4 + Search Console SEO Dashboard</div>
+          <div class="fd-meta">
+            <span class="fd-tag">SEO</span>
+            <span class="fd-tag">GA4</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 5. Porter Metrics — Shopify -->
+      <a href="https://portermetrics.com/en/templates/" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://portermetrics.com/wp-content/uploads/2024/10/Google-Ads-peak-hours-on-Google-Looker-Studio-1024x696.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Porter Metrics</div>
+          <div class="fd-name">Shopify Store Performance Dashboard</div>
+          <div class="fd-meta">
+            <span class="fd-tag">Shopify</span>
+            <span class="fd-tag">Ecommerce</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 6. Reporting Ninja — LinkedIn Ads -->
+      <a href="https://www.reportingninja.com/looker-studio-templates" target="_blank" rel="noopener" class="fd-card">
+        <div class="fd-preview">
+          <img src="https://blog.coupler.io/wp-content/uploads/2024/03/linkedin-ads-dashboard-template-looker-studio.png" alt="Dashboard preview" loading="lazy" onerror="this.style.display='none'" style="width:100%;display:block;object-fit:cover;object-position:top left;">
+        </div>
+        <div class="fd-info">
+          <div class="fd-source">Reporting Ninja</div>
+          <div class="fd-name">LinkedIn Ads B2B Lead Gen Dashboard</div>
+          <div class="fd-meta">
+            <span class="fd-tag">LinkedIn Ads</span>
+            <span class="fd-tag">B2B</span>
+            <span class="fd-free">Free</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div style="text-align:center;margin-top:2rem">
+      <a href="/marketing-dashboards/" class="affiliate-cta" style="display:inline-flex">Browse All Templates →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/logo.svg" alt="MarketingReports.io" height="20" style="display:block;margin-bottom:.5rem">
+      <p>The definitive directory of marketing dashboards. Free templates, automated reporting tool reviews, and product updates.</p>
+    </div>
+    <div class="footer-col"><h4><a href="/reporting-tools/" style="color:inherit;text-decoration:none">Dashboard Tools</a></h4><ul>
+      <li><a href="/reporting-tools/whatagraph/">Whatagraph</a></li>
+      <li><a href="/reporting-tools/databox/">Databox</a></li>
+      <li><a href="/reporting-tools/klipfolio/">Klipfolio</a></li>
+      <li><a href="/reporting-tools/supermetrics/">Supermetrics</a></li>
+      <li><a href="/reporting-tools/looker-studio/">Looker Studio</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>By Platform</h4><ul>
+      <li><a href="/marketing-dashboards/google-ads/">Google Ads</a></li>
+      <li><a href="/marketing-dashboards/facebook-ads/">Facebook Ads</a></li>
+      <li><a href="/marketing-dashboards/google-search-console/">Search Console</a></li>
+      <li><a href="/marketing-dashboards/linkedin-ads/">LinkedIn Ads</a></li>
+      <li><a href="/marketing-dashboards/shopify/">Shopify</a></li>
+      <li><a href="/marketing-dashboards/bing-ads/">Bing Ads</a></li>
+      <li><a href="/marketing-dashboards/hubspot-marketing/">HubSpot</a></li>
+      <li><a href="/marketing-dashboards/organic-social/">Organic Social</a></li>
+      <li><a href="/marketing-dashboards/email-marketing/">Email Marketing</a></li>
+      <li><a href="/marketing-dashboards/ahrefs/">Ahrefs</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>By Source</h4><ul>
+      <li><a href="/marketing-dashboards/google-ads/">Paid Search</a></li>
+      <li><a href="/marketing-dashboards/facebook-ads/">Paid Social</a></li>
+      <li><a href="/marketing-dashboards/google-search-console/">SEO / Organic</a></li>
+      <li><a href="/marketing-dashboards/email-marketing/">Email Marketing</a></li>
+      <li><a href="/marketing-dashboards/organic-social/">Organic Social</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 MarketingReports.io — Independent reviews. We may earn a commission from affiliate links.</p>
+    <p><a href="/blog/">Blog</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/affiliate-disclosure/">Affiliate Disclosure</a></p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const filter = this.dataset.filter;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    document.querySelectorAll('.post-card').forEach(card => {
+      card.style.display = (filter === 'all' || card.dataset.type === filter) ? '' : 'none';
+    });
+  });
+});
+</script>
 </body>
 </html>

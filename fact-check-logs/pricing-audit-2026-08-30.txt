@@ -1,0 +1,73 @@
+PRICING AUDIT — all five /reporting-tools/ review pages
+Date: 2026-08-30
+Method: each vendor's own live pricing page fetched and read directly.
+
+SUMMARY
+All four paid-tool pages stated the wrong entry price. Every one corrected.
+
+--------------------------------------------------------------------------
+WHATAGRAPH   source: whatagraph.com/pricing
+  WAS  From €199/mo; Start €199 (20 credits), Boost €399 (50), Max custom.
+       One passage said €249; meta description said €249.
+  NOW  Max from €699/mo billed annually, from 50 source credits.
+       Prime custom. No plan below €699. Start and Boost retired.
+  ALSO No free plan and no self-serve trial visible; the site is demo-led
+       ("Get a demo"). Removed the page's advice to "start with the free plan"
+       and the comparison table's free-plan tick.
+  ALSO Page claimed Databox gates AI behind Growth at "$319+/month". Databox
+       Growth is $399. Corrected.
+
+DATABOX      source: databox.com/pricing
+  WAS  From $159/mo; Professional $159, Growth $399, Premium $799.
+       Free plan repeatedly described as sunset on 2025-07-01, with that
+       removal used as a central criticism in the verdict, a dedicated H3,
+       the quick-facts row, the comparison table, the changelog and the
+       conclusion.
+  NOW  Free $0 tier EXISTS (3 sources, 1 user, 1 dashboard, 10 custom
+       metrics, 50 AI credits/mo). Analyst $64, Pro $159, Growth $399,
+       Custom. "Professional" renamed "Pro"; "Premium $799" is now Custom.
+  ALSO Pro includes 3 sources, not ~11; additional sources $5.60/mo on
+       annual, not $7.
+  ALSO AI is no longer Growth-gated — every tier carries a monthly AI credit
+       allowance (50 / 500 / 1,500 / 4,000). The page's second-largest
+       criticism was stale and has been rewritten.
+  EDITORIAL The free-plan section was rewritten rather than patched. The
+       removal did happen; the tier is back, tighter than before. The section
+       now covers that round trip and draws the point that a vendor which
+       reverses packaging decisions is one whose tiers you should re-check
+       yourself.
+
+SUPERMETRICS source: supermetrics.com/pricing
+  WAS  From €29/mo; Starter €29, Growth €159, Pro €399, Enterprise custom.
+       Add-ons quoted as flat rates (extra user €29/€99, source €37,
+       destination €149+).
+  NOW  USD, annual billing. Starter $44 ($55 monthly), Growth $177 ($222),
+       Enterprise custom. No Pro tier published.
+  ALSO Add-ons are ranges, not flat: users $37–124/mo, sources $37–47/mo,
+       destinations $49–187/mo. Corrected throughout.
+  KEPT The "€900/month" agency quote — it is a verbatim testimonial, not a
+       price claim by us.
+
+KLIPFOLIO    source: klipfolio.com/pricing
+  WAS  From $80/mo; Klips Starter ~$80, Pro ~$420, Premier ~$690.
+       PowerMetrics: Free $0, Go $125, Pro $300, Business $800.
+  NOW  Klips Base $120/mo annual ($140 monthly), Grow $190, Team $310,
+       Team+ $600. None of the page's old tiers matched a live one.
+  ALSO Klipfolio no longer publishes PowerMetrics tier pricing;
+       klipfolio.com/powermetrics/pricing returns 404. The old PM figures are
+       now labelled historical and unverifiable rather than stated as fact.
+
+LOOKER STUDIO source: cloud.google.com/looker-studio/pricing
+  Free. No pricing claims required correction.
+
+--------------------------------------------------------------------------
+CONVENTION ADOPTED
+Every review page now carries a visible line under the hero chips:
+"Pricing verified <date> against <vendor pricing URL>. Vendors reprice often
+— check before you buy." This makes staleness visible instead of silent, and
+gives a re-check a date to work from.
+
+STANDING ACTION
+All four vendors repriced within roughly a year. Pricing needs a scheduled
+re-check, not an ad-hoc one. Fold it into the monthly liveness sweep already
+planned for outbound links.
