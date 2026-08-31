@@ -74,6 +74,9 @@ INTENTIONAL = {
     'ahrefs': {'title', 'meta:description', 'og:title', 'og:description', 'h1', 'h2s',
                'cards', 'paragraphs', 'ctas'},
     'bing-ads': {'cards', 'paragraphs'},
+    # Rebuilt 2026-08-30: 4 of 5 and 4 of 6 cards were dead.
+    'email-marketing': {'cards', 'paragraphs'},
+    'hubspot-marketing': {'cards', 'paragraphs'},
 }
 
 fails = 0
