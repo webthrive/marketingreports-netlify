@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Semantic diff: does the generated page carry the same content as the original?
+"""Semantic diff between the committed pages and a fresh build from the catalog.
 
-Compares meaning, not bytes: head metadata, hero copy, prose sections, and every
-card's name/vendor/url/price/blurb/tags. Formatting differences are expected and ignored.
+Originally this proved the migration was lossless. Now that the catalog is the source
+of truth, it proves the inverse and equally useful thing: that nobody has hand-edited a
+generated page. Any difference means the repo and dashboards.json have diverged.
+
+Run `build.py --out out` first so both sides are current, then this.
 """
 import glob, os, re, sys
 from bs4 import BeautifulSoup
@@ -77,6 +80,11 @@ INTENTIONAL = {
     # Rebuilt 2026-08-30: 4 of 5 and 4 of 6 cards were dead.
     'email-marketing': {'cards', 'paragraphs'},
     'hubspot-marketing': {'cards', 'paragraphs'},
+    # Rebuilt 2026-08-30, finishing the triage.
+    'shopify': {'cards'},
+    'linkedin-ads': {'cards'},
+    'organic-social': {'cards'},
+    'google-search-console': {'cards'},
 }
 
 fails = 0
