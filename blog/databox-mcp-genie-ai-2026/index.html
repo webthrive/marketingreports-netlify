@@ -84,7 +84,6 @@ a:hover{opacity:.8}
 .post-tag{font-family:var(--font-mono);font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);background:var(--accent-dim);border:1px solid rgba(0,212,255,.2);padding:.2rem .6rem;border-radius:99px}
 
 /* ARTICLE */
-.article-hero{margin-bottom:2rem;border-radius:10px;overflow:hidden;border:1px solid var(--border)}
 .article-body{font-size:1.05rem;line-height:1.85;color:var(--text-muted)}
 .article-body h2{font-size:1.2rem;font-weight:700;color:var(--text);margin:2.75rem 0 .75rem;padding-left:.9rem;border-left:3px solid var(--accent);font-family:var(--font-mono);letter-spacing:-.01em}
 .article-body p{margin-bottom:1rem}
@@ -141,101 +140,6 @@ a:hover{opacity:.8}
     <span class="post-tag">Databox</span><span class="post-tag">AI</span><span class="post-tag">Product Update</span>
   </div>
 
-  <!-- HERO SVG -->
-  <div class="article-hero">
-<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;background:#0c101a">
-  <!-- Background grid -->
-  <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161d2b" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00e5a0;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="720" height="360" fill="url(#grid)"/>
-
-  <!-- Header label -->
-  <text x="20" y="28" font-family="monospace" font-size="10" fill="#4a5568" letter-spacing="1.5">DATABOX · GENIE AI + MCP · APRIL 2026</text>
-
-  <!-- Left panel: Genie AI chat interface -->
-  <rect x="20" y="44" width="300" height="296" rx="8" fill="#10141d" stroke="#1e2535" stroke-width="1"/>
-  <rect x="20" y="44" width="300" height="36" rx="8" fill="#151a26"/>
-  <rect x="20" y="68" width="300" height="12" fill="#151a26"/>
-  <text x="36" y="67" font-family="monospace" font-size="10" font-weight="bold" fill="#e2e8f0">✦ Genie — AI Analyst</text>
-
-  <!-- Chat bubbles -->
-  <rect x="36" y="96" width="248" height="38" rx="6" fill="#1a1f2e" stroke="#252d40" stroke-width="1"/>
-  <text x="48" y="112" font-family="monospace" font-size="9" fill="#8c9ab0">You: Why did conversions drop</text>
-  <text x="48" y="126" font-family="monospace" font-size="9" fill="#8c9ab0">last Tuesday?</text>
-
-  <rect x="36" y="142" width="268" height="56" rx="6" fill="#0d1a26" stroke="rgba(0,212,255,0.2)" stroke-width="1"/>
-  <text x="48" y="158" font-family="monospace" font-size="9" fill="#00d4ff">Genie: Conversions fell 34% on Tue</text>
-  <text x="48" y="172" font-family="monospace" font-size="9" fill="#8c9ab0">vs prior week. CPCs spiked +22% in</text>
-  <text x="48" y="186" font-family="monospace" font-size="9" fill="#8c9ab0">your Google Ads account simultaneously.</text>
-
-  <rect x="36" y="206" width="220" height="28" rx="6" fill="#1a1f2e" stroke="#252d40" stroke-width="1"/>
-  <text x="48" y="224" font-family="monospace" font-size="9" fill="#8c9ab0">You: Show me the ROAS trend</text>
-
-  <rect x="36" y="242" width="268" height="44" rx="6" fill="#0d1a26" stroke="rgba(0,212,255,0.2)" stroke-width="1"/>
-  <text x="48" y="258" font-family="monospace" font-size="9" fill="#00d4ff">Genie: ROAS averaged 3.2x this</text>
-  <text x="48" y="272" font-family="monospace" font-size="9" fill="#8c9ab0">month — down from 4.1x in Feb.</text>
-  <text x="48" y="286" font-family="monospace" font-size="9" fill="#8c9ab0">Worst performing: Meta Ads.</text>
-
-  <!-- Input bar -->
-  <rect x="32" y="308" width="276" height="22" rx="4" fill="#1e2535"/>
-  <text x="44" y="322" font-family="monospace" font-size="9" fill="#4a5568">Ask Genie anything...</text>
-  <rect x="291" y="310" width="14" height="18" rx="3" fill="#00d4ff" opacity="0.8"/>
-
-  <!-- Right panel: MCP flow -->
-  <rect x="340" y="44" width="360" height="296" rx="8" fill="#10141d" stroke="#1e2535" stroke-width="1"/>
-  <rect x="340" y="44" width="360" height="36" rx="8" fill="#151a26"/>
-  <rect x="340" y="68" width="360" height="12" fill="#151a26"/>
-  <text x="356" y="67" font-family="monospace" font-size="10" font-weight="bold" fill="#e2e8f0">⬡ MCP Server — Chat with Data Anywhere</text>
-
-  <!-- MCP connection diagram -->
-  <text x="356" y="102" font-family="monospace" font-size="9" fill="#4a5568" letter-spacing="1">CONNECT YOUR AI TOOL TO DATABOX</text>
-
-  <!-- AI Tool boxes -->
-  <rect x="356" y="112" width="80" height="28" rx="4" fill="#1a1f2e" stroke="#252d40" stroke-width="1"/>
-  <text x="396" y="130" font-family="monospace" font-size="9" fill="#8c9ab0" text-anchor="middle">Claude</text>
-  <rect x="448" y="112" width="80" height="28" rx="4" fill="#1a1f2e" stroke="#252d40" stroke-width="1"/>
-  <text x="488" y="130" font-family="monospace" font-size="9" fill="#8c9ab0" text-anchor="middle">ChatGPT</text>
-  <rect x="540" y="112" width="80" height="28" rx="4" fill="#1a1f2e" stroke="#252d40" stroke-width="1"/>
-  <text x="580" y="130" font-family="monospace" font-size="9" fill="#8c9ab0" text-anchor="middle">Cursor</text>
-
-  <!-- Arrows converging -->
-  <line x1="396" y1="140" x2="396" y2="156" stroke="#252d40" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <line x1="488" y1="140" x2="488" y2="156" stroke="#252d40" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <line x1="580" y1="140" x2="580" y2="156" stroke="#252d40" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <line x1="396" y1="156" x2="488" y2="156" stroke="#252d40" stroke-width="1.5"/>
-  <line x1="488" y1="156" x2="580" y2="156" stroke="#252d40" stroke-width="1.5"/>
-  <line x1="488" y1="156" x2="488" y2="172" stroke="url(#accentGrad)" stroke-width="2"/>
-  <polygon points="484,172 492,172 488,178" fill="#00d4ff"/>
-
-  <!-- MCP Server box -->
-  <rect x="426" y="182" width="124" height="32" rx="5" fill="#0d1a26" stroke="#00d4ff" stroke-width="1.5"/>
-  <text x="488" y="202" font-family="monospace" font-size="10" font-weight="bold" fill="#00d4ff" text-anchor="middle">Databox MCP</text>
-
-  <!-- Arrow down -->
-  <line x1="488" y1="214" x2="488" y2="230" stroke="url(#accentGrad)" stroke-width="2"/>
-  <polygon points="484,230 492,230 488,236" fill="#00e5a0"/>
-
-  <!-- Data sources -->
-  <rect x="356" y="238" width="264" height="60" rx="6" fill="#151a26" stroke="#252d40" stroke-width="1"/>
-  <text x="368" y="256" font-family="monospace" font-size="9" fill="#4a5568" letter-spacing=".8">YOUR DATABOX DATA</text>
-  <text x="368" y="274" font-family="monospace" font-size="9" fill="#8c9ab0">Metrics · Dashboards · Datasets</text>
-  <text x="368" y="288" font-family="monospace" font-size="9" fill="#8c9ab0">Goals · Forecasts · Benchmarks</text>
-
-  <!-- "NEW" badge -->
-  <rect x="612" y="186" width="38" height="18" rx="9" fill="rgba(0,229,160,0.15)" stroke="rgba(0,229,160,0.4)" stroke-width="1"/>
-  <text x="631" y="198" font-family="monospace" font-size="8" font-weight="bold" fill="#00e5a0" text-anchor="middle">NEW</text>
-
-  <!-- Bottom note -->
-  <text x="488" y="324" font-family="monospace" font-size="9" fill="#4a5568" text-anchor="middle">Ask questions in plain English. Get answers from your live data.</text>
-</svg>
-  </div>
 
   <!-- ARTICLE BODY -->
   <div class="article-body">
