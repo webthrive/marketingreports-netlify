@@ -1,0 +1,7 @@
+# Python bytecode from the build scripts
+__pycache__/
+*.py[cod]
+
+# Local build output — build.py --out writes here; generated pages are
+# committed at the repo root, not from this directory.
+/out/
